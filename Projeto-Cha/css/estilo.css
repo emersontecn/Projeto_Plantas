@@ -1,0 +1,532 @@
+h1{
+    font-size:1.2em;
+    text-align: center;
+}
+
+h2,h3 {
+
+    text-align: center;
+
+}
+
+p{
+
+    text-align: justify;
+}
+
+#listas{
+    display: flex;
+    justify-content: center;
+}
+
+#listas #itens{
+    
+    display: flex;
+
+}
+
+ul li {
+
+   
+    text-align: justify; 
+    
+}
+
+img{
+
+    width: 200px;
+    height: 150px;
+    
+}
+
+header {
+
+    border: 1px solid rgba(0, 0, 0, 0.164);
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header #banner {
+
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.164);
+    width: 400px;
+    justify-content: center;
+    
+
+}
+
+header #banner div {
+    display: flex;
+    align-items: center;
+
+}
+
+header #banner div p {
+   color: rgb(0, 0, 0);
+   font-size: 2em;
+
+}
+
+
+nav {
+
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.164);
+    width: 100%;
+
+}
+
+nav ul {
+
+    display: flex;
+    margin: 0;
+ 
+}
+
+nav li {
+    margin: 15px;
+    list-style-type: circle;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+main {
+
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main div {
+
+    flex-basis: 900px;
+    margin: 15px;
+
+}
+
+
+/* seções de plantas1 */
+
+.planta1 {
+    border: 1px solid rgba(0, 0, 0, 0.164);
+    min-height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.planta1 #foto {
+
+    
+    height: 150px;
+    flex-basis: 200px;
+    margin: 15px;
+
+}
+
+.planta1 #descricao {
+
+    
+    height: auto;
+    flex-basis: 1000px;
+    margin: 10px;
+    
+}
+
+
+
+/* seção 2 */
+
+
+.planta2 {
+
+    border: 1px solid rgba(0, 0, 0, 0.164);
+    margin-top: 20px;
+    min-height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+
+.planta2 #foto {
+
+    
+    height: 150px;
+    flex-basis: 200px;
+    margin: 15px;
+
+}
+
+.planta2 #descricao {
+
+    
+    height: auto;
+    flex-basis: 1000px;
+    margin: 10px;
+   
+}
+
+
+/* seção 3 */
+
+.planta3 {
+
+    border: 1px solid rgba(0, 0, 0, 0.164);
+    margin-top: 20px;
+    min-height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.planta3 #foto {
+
+    
+    height: 150px;
+    flex-basis: 200px;
+    margin: 15px;
+
+}
+
+.planta3 #descricao {
+
+    
+    height: auto;
+    flex-basis: 1000px;
+    margin: 10px;
+   
+}
+/* seção 4 */
+
+.planta4 {
+
+    border: 1px solid rgba(0, 0, 0, 0.164);
+    margin-top: 20px;
+    min-height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.planta4 #foto {
+
+    
+    height: 150px;
+    flex-basis: 200px;
+    margin: 15px;
+
+}
+
+.planta4 #descricao {
+
+    
+    height: auto;
+    flex-basis: 1000px;
+    margin: 10px;
+   
+}
+/* seção 5 */
+
+.planta5 {
+
+    border: 1px solid rgba(0, 0, 0, 0.164);
+    margin-top: 20px;
+    min-height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.planta5 #foto {
+
+    
+    height: 150px;
+    flex-basis: 200px;
+    margin: 15px;
+
+}
+
+.planta5 #descricao {
+
+    
+    height: auto;
+    flex-basis: 1000px;
+    margin: 10px;
+   
+}
+/* seção 6 */
+
+.planta6 {
+
+    border: 1px solid rgba(0, 0, 0, 0.164);
+    margin-top: 20px;
+    min-height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.planta6 #foto {
+
+    
+    height: 150px;
+    flex-basis: 200px;
+    margin: 15px;
+
+}
+
+.planta6 #descricao {
+
+    
+    height: auto;
+    flex-basis: 1000px;
+    margin: 10px;
+   
+}
+/* seção 7 */
+
+.planta7 {
+
+    border: 1px solid rgba(0, 0, 0, 0.164);
+    margin-top: 20px;
+    min-height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.planta7 #foto {
+
+    
+    height: 150px;
+    flex-basis: 200px;
+    margin: 15px;
+
+}
+
+.planta7 #descricao {
+
+    
+    height: auto;
+    flex-basis: 1000px;
+    margin: 10px;
+   
+}
+/* seção 8 */
+
+.planta8 {
+
+    border: 1px solid rgba(0, 0, 0, 0.164);
+    margin-top: 20px;
+    min-height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.planta8 #foto {
+
+    
+    height: 150px;
+    flex-basis: 200px;
+    margin: 15px;
+
+}
+
+.planta8 #descricao {
+
+    
+    height: auto;
+    flex-basis: 1000px;
+    margin: 10px;
+   
+}
+/* seção 9*/
+
+.planta9 {
+
+    border: 1px solid rgba(0, 0, 0, 0.164);
+    margin-top: 20px;
+    min-height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.planta9 #foto {
+
+    
+    height: 150px;
+    flex-basis: 200px;
+    margin: 15px;
+
+}
+
+.planta9 #descricao {
+
+    
+    height: auto;
+    flex-basis: 1000px;
+    margin: 10px;
+   
+}
+/*seção 10*/
+
+.planta10 {
+
+    border: 1px solid rgba(0, 0, 0, 0.164);
+    margin-top: 20px;
+    min-height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.planta10 #foto {
+
+    
+    height: 150px;
+    flex-basis: 200px;
+    margin: 15px;
+
+}
+
+.planta10 #descricao {
+
+    
+    height: auto;
+    flex-basis: 1000px;
+    margin: 10px;
+   
+}
+ /*seção 11 
+
+.planta11 {
+
+    
+    min-height: 400px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.planta11 #foto {
+
+    
+    height: 150px;
+    flex-basis: 200px;
+    margin: 15px;
+
+}
+
+.planta11 #descricao {
+
+    
+    height: auto;
+    flex-basis: 1000px;
+    margin: 10px;
+   
+}
+ seção 12 
+
+.planta12 {
+
+    
+    min-height: 400px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.planta12 #foto {
+
+    
+    height: 150px;
+    flex-basis: 200px;
+    margin: 15px;
+
+}
+
+.planta12 #descricao {
+
+    
+    height: auto;
+    flex-basis: 1000px;
+    margin: 10px;
+   
+}
+ seção 13 
+
+.planta13 {
+
+    
+    min-height: 400px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.planta13 #foto {
+
+    
+    height: 150px;
+    flex-basis: 200px;
+    margin: 15px;
+
+}
+
+.planta13 #descricao {
+
+    
+    height: auto;
+    flex-basis: 1000px;
+    margin: 10px;
+   
+}
+ */
+footer {
+    border: 1px solid rgba(0, 0, 0, 0.164);
+    margin-top: 20px;
+    height: 100px;
+    width: 100%;
+    margin-top: 10px;
+}
